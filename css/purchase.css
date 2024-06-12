@@ -1,0 +1,101 @@
+h2 {
+    position: absolute;
+    top: 19%;
+    left: 12%;
+    text-decoration: underline;
+    margin-bottom: 200px;
+}
+
+details {
+    width: 75%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 45px 70px 45px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    border: 1px solid #b0c6d5;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+details + details {
+    margin-top: 20px;
+}
+
+details[open] {
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+}
+
+details p {
+    color: #96999d;
+    font-weight: 300;
+}
+
+summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+summary:focus {
+    outline: none; 
+}
+
+summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+summary::-webkit-details-marker::details {
+    display: none
+}
+
+.control-icon {
+    fill: black;
+    transition: .3s ease;
+    pointer-events: none;
+}
+
+.control-icon-close {
+    fill: white;
+    display: none;
+}
+
+details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+}
+
+details[open] .control-icon-expand {
+    display: none;
+}
+
+p > a {
+    text-decoration: none;
+    color: #b0c6d5;
+}
+
+.history {
+    margin-top: 10%;
+}
+
+.error {
+    clear: both;
+    color: red;
+    position: relative;
+    top: -10px;
+
+}

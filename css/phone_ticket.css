@@ -1,0 +1,5 @@
+@media screen and (max-width: 450px) {
+    .title h2 {
+        margin-top: 1500px !important;
+    }
+}

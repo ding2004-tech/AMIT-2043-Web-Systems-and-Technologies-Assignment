@@ -1,0 +1,14 @@
+@media screen and (max-width: 430px) {
+    .ctn {
+        left: 0%;
+        align-items: center !important;
+        padding-top: 25px;
+        padding-left: 25px;
+    }
+
+    .form-box {
+        padding: 25px;
+        width: 350px;
+        height: 350px;
+    }
+}

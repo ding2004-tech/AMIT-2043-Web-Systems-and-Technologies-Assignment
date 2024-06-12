@@ -1,0 +1,312 @@
+/*Tablet View*/
+@media screen and (min-width: 429px) and (max-width: 770px) {
+    ::-webkit-scrollbar {
+        width: 0px; 
+    }
+
+    body {
+        font-size: 14px; 
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        height: auto !important;
+        
+    }
+
+    .container {
+        display: block;
+        height: auto;
+        position: unset;
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 0px;
+        width: 100%; 
+        left: 0;
+        height: auto;
+    }
+
+    .navbar img {
+        padding: 10px;
+    }
+
+    .banner{
+        width: auto;
+        top: 20px;
+        display: flex;
+    }
+
+    .banner1 {
+        position: unset;
+        width: 75%;
+        flex-direction: row;
+    }
+    
+    .banner1 img {
+        position: unset;
+        width: 100%;
+    }
+
+    .banner1 div {
+        position: center;
+    }
+
+    .banner2 {
+        width: 75% !important;
+        right: 13% !important;
+        top: 500px !important; 
+        height: 50% !important;
+        align-items: center !important;
+    }
+
+    .banner2 div span {
+        font-size: 20px;
+        font-family: Montserrat;
+        position: center !important;
+        top:10%;
+    }
+
+    .banner2 div div {
+        font-size: 16px;
+        color:#71797E;
+        position: center !important;
+        left:18%;
+        top:65% !important;
+    }
+
+    .banner2 button {
+        background-color:#DCF0FA; 
+        color: black;
+        padding: 8px;
+        border-radius: 2px;
+        font-weight: bold;
+        position: center !important;
+        left: 43% !important;
+        top: 12.07% !important;
+    }
+
+    .sliders {
+        position: unset !important;
+        top: auto !important;
+        height: 500px !important;
+    }
+
+    .slider {
+        position: relative !important;
+    }
+
+    .card {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 120px !important;
+        height: 200px !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .card img {
+        width: 120px !important;
+        height: 170px !important;
+        border-top-left-radius: 15px !important;
+        border-top-right-radius: 15px !important;
+    }
+
+    .card-body {
+        display: block !important;
+        flex-wrap: wrap !important;
+        margin-top: 2px;
+    }
+
+    .card-title {
+        font-size: 10px !important;
+    }
+
+    .historical {
+        display: block;
+        position: relative !important;
+        top: 440px !important;
+    }
+
+    .historical div h2 {
+        top: 1500px !important;
+    }
+
+    .slider-container {
+        top: 650px;
+        display: block;
+        height: 360px;
+    }
+
+    footer {
+        width: 100% !important;
+        height: auto !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        position: relative !important;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        top: 550px !important;
+    }
+}
+
+/*Phone View*/
+@media screen and (max-width: 430px) {
+    ::-webkit-scrollbar {
+        width: 0px; 
+    }
+
+    .banner{
+        width: auto;
+        top: 20px;
+        display: flex;
+    }
+
+    .banner1 {
+        position: unset;
+        width: 75%;
+        flex-direction: row;
+        height: auto;
+    }
+    
+    .banner1 img {
+        position: unset;
+        width: 100%;
+        height: 250px;
+    }
+
+    .banner1 div {
+        position: center;
+    }
+
+    .banner1 div span {
+        font-size: 20px;
+    }
+
+    .banner2 {
+        width: 75% !important;
+        right: 13% !important;
+        top: 375px !important; 
+        height: 50% !important;
+        align-items: center !important;
+    }
+
+    .banner2 span {
+        left: 30% !important;
+    }
+
+    .place {
+        padding-top: 8px;
+        font-size: 15px !important;
+        transform: translateX(-20%);
+    }
+
+    .day {
+        font-size: 10px !important;
+        color: #71797E;
+        position: absolute !important;
+        left: 10% !important;
+        top: 58% !important;
+    }
+    
+    .day span {
+        display: inline-block !important; /* Display spans in one row */
+        margin-right: 20px !important; /* Add some space between spans */
+    }
+
+    .banner2 button {
+        background-color:#DCF0FA; 
+        color: black;
+        padding: 8px;
+        border-radius: 2px;
+        font-weight: bold;
+        position: center !important;
+        left: 35% !important;
+        top: 12.07% !important;
+        margin-top: -10px;
+    }
+
+    .sliders {
+        display: block;
+        position: unset !important;
+        top: 440px !important;
+    }
+    
+    .slider-container {
+        top: 650px;
+        display: block;
+        height: 360px;
+        margin-top: 20% !important;
+    }
+
+    .slider-container .title {
+        margin-bottom: 15px;
+    }
+
+    .slider-container .title h2 {
+        font-size: 15px;
+    }
+
+    .slider {
+        position: relative !important;
+    }
+
+    .card {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 120px !important;
+        height: 200px !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .card img {
+        width: 120px !important;
+        height: 170px !important;
+        border-top-left-radius: 15px !important;
+        border-top-right-radius: 15px !important;
+    }
+
+    .card-body {
+        display: block !important;
+        flex-wrap: wrap !important;
+        margin-top: 2px;
+    }
+
+    .card-title {
+        font-size: 10px !important;
+    }
+
+    .prev-btn,
+    .next-btn {
+        top: 42%;
+    }
+
+    .historical {
+        display: block;
+        position: relative !important;
+        top: 450px !important;
+    }
+
+    .historical .title h2 {
+        top: 1500px !important;
+        font-size: 15px;
+        margin-top: 2.88% !important;
+        margin-bottom: 2.88% !important;  
+    }
+
+    .gallery .photo-container {
+        width: 100%;
+    }
+    
+    .gallery .photo-container .photo {
+        height: 150px;
+    }
+
+    .social_btn li {
+        padding: 5px !important;
+    }
+
+}

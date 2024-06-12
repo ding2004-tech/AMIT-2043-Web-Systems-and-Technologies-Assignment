@@ -1,0 +1,25 @@
+@media screen and (max-width: 430px) {
+    .ctn {
+        left: 0%;
+        margin: 15px;
+
+    }
+
+    .form-box {
+        margin: 0%;
+        height: 650px!important;
+    }
+
+    .form-box h2 {
+        text-align: center !important;
+    }
+
+    .form-box form div {
+        left: 30% !important;
+    }
+
+
+    .form-box form button {
+        margin: 25px 75px !important;
+    }
+}

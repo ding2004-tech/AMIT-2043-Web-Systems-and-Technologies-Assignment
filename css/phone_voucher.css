@@ -1,0 +1,30 @@
+@media screen and (max-width: 430px) {
+    h2 {
+        padding-top: 35px;
+        margin: 0px;
+        padding-left: 35.5%;
+    }
+
+    .voucher-container {
+        margin: 20px !important;
+        width: auto !important;
+    }
+
+    .voucher-card {
+        width: 400px !important;
+        height: 150px;
+    }
+
+    .voucher-title {
+        text-align: center !important;
+    }
+
+    .voucher-details p {
+        left: 67px !important;
+    }
+
+    .voucher-content h5 {
+        left: 45px !important;
+    }
+
+}

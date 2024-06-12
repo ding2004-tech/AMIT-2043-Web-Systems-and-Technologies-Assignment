@@ -1,0 +1,58 @@
+.navbar {
+    width: 100%; 
+}
+@media screen and (max-width: 430px) {
+    body {
+        width: 100% !important;
+    }
+
+    .navbar {
+        width: 430px !important;
+        position: fixed;
+    }
+
+    .navbar nav ul {
+        display: block;
+
+    }
+
+    .navbar nav ul img {
+        display: block;
+        padding: 0px;
+    }
+
+    h2 {
+        text-align: center;
+        position: absolute;
+        top: 19%;
+        left: 28% !important;
+        text-decoration: underline;
+        margin-bottom: 200px;
+    }
+
+    .history {
+        margin-top: 100px ;
+    }
+
+    .history summary {
+        font-size: 15px;
+    }
+
+    .history .date {
+        right: 145px !important;
+        top: 150px !important;
+    }
+
+    .history .venue {
+        top: 200px !important;
+    }
+
+    details[open] {
+        min-height: 350px !important;
+    }
+
+    .purchase_time {
+        right: 125px !important;
+        top: 260px !important;
+    }
+}

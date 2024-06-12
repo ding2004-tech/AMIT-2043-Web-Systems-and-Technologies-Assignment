@@ -1,0 +1,70 @@
+@media screen and (max-width: 430px) {
+    .paymentdetail {
+        left: 50%; 
+        transform: translateX(-50%); 
+    }
+
+    .card input {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+
+    .card button {
+        width: 100%; 
+        margin-top: 10px;
+    }
+
+    .topay {
+        right: 50%; 
+        transform: translateX(50%); 
+    }
+
+    .topay h1, .topay h2, .topay h3, .topay h4 {
+        margin: 0; 
+    }
+
+    .topay select {
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+
+    #discount_value {
+        margin-bottom: 10px;
+    }
+
+    #total {
+        margin-top: 10px; 
+    }
+
+    footer {
+        position: relative; 
+        bottom: 0;
+        width: 100%; 
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    body {
+        font-size: 14px; 
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        height: auto !important;
+        
+    }
+
+    .paymentdetail {
+        position: absolute;
+        left: 13%;
+        top: 100px;
+    }
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+

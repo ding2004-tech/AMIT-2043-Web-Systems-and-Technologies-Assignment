@@ -1,0 +1,94 @@
+#grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 8%;
+    margin-left: 5%;
+    overflow: auto;
+}
+
+
+.popstar-cards {
+    text-align: start;
+    border-radius: 24px;
+    width: calc(50% - 20px);
+    margin-bottom: 90px;
+}
+
+.pop-img {
+    width: 100%;
+}
+
+.pop-img img {
+    width: 100%;
+    height: 200px;
+    width: 200px;
+    border-radius: 24px;
+    box-shadow: 0 8px 20px -6px #dd0b66;
+    transition: transform 1s ease;
+}
+
+.pop-img img:hover {
+    transform: scale(0.9);
+}
+
+.popstar-cards h4 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.popstar-cards p {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 115px;
+}
+
+.pagination a {
+    color: #333;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.pagination a.prev-next {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pagination .current-page {
+    background-color: #333;
+    color: #fff;
+    border-radius: 25%;
+    padding: 8px 12px;
+    font-size: 16px;
+    margin: 0 8px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .popstar-cards {
+        width: calc(33.33% - 20px); 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .popstar-cards {
+        width: calc(25% - 20px); 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .popstar-cards {
+        width: calc(20% - 20px); 
+    }
+}

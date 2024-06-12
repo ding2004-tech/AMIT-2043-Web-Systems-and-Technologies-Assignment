@@ -1,0 +1,36 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+.card label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.card input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    background-color: transparent;
+}
+
+.card input[type=text],
+.card input[type=password] {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.card {
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+

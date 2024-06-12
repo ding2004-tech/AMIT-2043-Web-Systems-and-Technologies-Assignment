@@ -1,0 +1,73 @@
+@media screen and (max-width: 430px) {
+    body {
+        font-size: 14px; 
+        width: 100vw;
+        align-items: center;
+        padding: 0;
+        height: auto !important;
+        
+    }
+
+    .container {
+        display: block;
+        height: auto;
+        position: unset;
+        width: 425.6px;
+        padding-left: 0px;
+    }
+
+    .navbar {
+        padding: 0px;
+        width: 425.6px; 
+        left: 0;
+        height: auto;
+    }
+
+    .navbar nav {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .navbar nav ul {
+        margin: 15px !important;
+    }
+
+    .navbar nav ul li {
+        display: wrap;
+        flex-wrap: wrap;
+        margin-left: 25px;
+    }
+
+    .logged-in {
+        margin-left: 50px !important;
+        width: 20px;
+    }
+
+    .navbar nav ul li a {
+        font-size: 10px;
+    }
+
+    .navbar img {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .navbar .user-img {
+        left: 80%;
+        top: 2.5%;
+        width: 25px;
+        height: 25px;
+    }
+
+    .submenu {
+        padding: 0px !important;
+        top: 90%;
+        right: 15px;
+        border-radius: 10px;
+    }
+
+    .submenu ul li {
+        margin: 0px !important;
+    }
+}

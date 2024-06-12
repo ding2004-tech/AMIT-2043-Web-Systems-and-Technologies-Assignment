@@ -1,0 +1,21 @@
+@media screen and (max-width: 430px) {
+    footer {
+        display: inline-block;
+        width: auto !important;
+        height: auto !important;
+        padding-top: 15px !important;
+        margin: 5px !important;
+        position: relative !important;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        top: 550px !important;
+    }
+
+    .social_btn {
+        margin-left: 42px !important;
+    }
+
+    .social_btn ul li {
+        padding: 15px !important;
+    }
+}

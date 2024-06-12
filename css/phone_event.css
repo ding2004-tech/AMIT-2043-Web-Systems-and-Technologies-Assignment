@@ -1,0 +1,113 @@
+@media screen and (max-width: 430px) {
+    .slideshow-container {
+        position: relative;
+        max-width: none !important;
+        margin: 0px !important;
+        padding: 0px 25px !important;
+        height: 57.55%;
+        top: 10%;
+        left: 0% !important;
+    }
+    
+    .blank {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0) !important;
+        height: 250px !important;
+        padding-top: 15px;
+    }
+
+    .mySlides img {
+        width: 100% !important;
+        height: 200px !important;
+    }
+
+    .prev {
+        left: 0% !important;
+        top: 60%;
+    }
+
+    .next {
+        left: 93% !important;
+        top: 60%;
+    }
+
+    .title {
+        height: 30px !important;
+        margin-top: 20px !important;
+    }
+
+    .title span {
+        position: absolute;
+        right: 20%;
+        bottom: 20% !important;
+        font-weight: bold;
+    }
+
+    form {
+        top: 65% !important;
+        left: 10% !important;
+    }
+
+    form input {
+        width: 320px !important;
+    }
+
+    .event-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        margin-top: 100px;
+        padding: 10px !important;
+    }
+    
+    .event-card {
+        width: calc(50% - 15px); 
+        height: 200px !important;
+        margin-bottom: 10px; /* Adjust spacing between rows */
+        box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 0px !important;
+    }
+
+    .event-card-inner {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .event-card-back {
+        width: 100% !important;
+        height: 100% !important;
+        padding-left: 0px !important;
+        margin: 0px !important;
+    }
+
+    .event-card-back svg {
+        width: 10px !important;
+        height: 10px !important;
+        padding-left: 0px;
+
+    }
+
+    .event-card-back div p {
+        margin: 0px !important;
+        padding-left: 5px;
+    }
+
+    .event-card-back h3,
+    .event-card-back div {
+        font-size: 8px !important;
+        padding-left: 2px;
+    }
+
+    .event-card-back div {
+        height: 25px;
+    }
+
+    .event-card-back a {
+        font-size: 8px !important;
+        margin-bottom: 10px !important;
+    }
+
+    
+}

@@ -1,0 +1,51 @@
+
+footer {
+    background-color: white;
+    border-top: 2px solid blue;
+    font-weight: bold;
+    padding: 0;
+    color: rgb(101, 143, 217);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_btn {
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.icon {
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    color: rgb(101, 143, 217);
+    background-color: white;
+}
+
+.social_btn button {
+    background-color: white;
+    border: 0;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+.social_btn ul li {
+    list-style-type: none;
+    cursor: pointer;
+    color: rgb(101, 143, 217);
+    background-color: white;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.social_btn ul li a {
+    background-color: white;
+}

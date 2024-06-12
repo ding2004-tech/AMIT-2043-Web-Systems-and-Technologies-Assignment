@@ -1,0 +1,95 @@
+h3 {
+    position: absolute;
+    left: 15%;
+    top: 13%;
+    text-decoration: underline;
+}
+form {
+    position: absolute;
+    width: 32.55%;
+    left: 15%; 
+    top: 21.58%;
+    text-align: left; 
+}
+form input {
+    margin-bottom: 20px; 
+    border: 2px solid;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 100px;
+    text-align: center;
+}
+form input[type=file] {
+    margin-bottom: 20px; 
+    border: 2px solid;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: white;
+}
+form input[type=date] {
+    margin-bottom: 20px; 
+    border: 2px solid;
+    padding-bottom: 10px;
+    padding-right: 115px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 115px;
+    text-align: center;
+    background-color: white;
+}
+form label {
+    padding-bottom: 20px;
+}
+form button {
+    width: 380px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+form button:hover {
+    color: black;
+    background-color: white;
+}
+.vertical-line {
+    border-left: 3px solid black;
+    height: 100%;
+    position: absolute;
+    left: 58%;
+    top: 10%;
+    margin-top: 50px;
+}
+.display {
+    position: absolute;
+    right: 13.02%;
+    top: 20%;
+    border: 2px solid black;
+    border-style: double;
+}
+h4 {
+    position: absolute;
+    right: 17%;
+    top: 13%;
+    text-decoration: underline;
+}
+.error {
+    clear: both;
+    color: red;
+    position: relative;
+    top: -10px;
+
+}
+
+
+.uploadPhoto {
+    position: absolute;
+    right: 32%;
+    top: 70%;
+}
